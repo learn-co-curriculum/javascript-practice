@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/index.js"></script>
+  </head>
+  <body>
+
+    <div id="root" class="container-fluid">
+
+      <div id="data" class="row">
+        <div class="col-xs-6 col-sm-4">
+          <label for="Object Name:">Object Name:</label>
+          <h2 id="name"></h2>
+        </div>
+
+        <div class="col-xs-6 col-sm-4">
+          <label for="Object Data:">Object Data:</label>
+          <ul id="api-data"></ul>
+        </div>
+
+        <div class="col-xs-6 col-sm-4">
+          <label for="Object Description:">Object Description:</label>
+          <ul id="api-description"></ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 col-md-offset-5">
+          <button id="hit-api" class="btn btn-primary">
+            Click Me!
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
