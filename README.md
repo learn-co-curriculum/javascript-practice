@@ -5,8 +5,8 @@
 * Build out a JavaScript only application that hits an external API. **Note:** Find an API that doesn't require authentication. You can use one of the API's suggested below.
 * Create an event listener for the button on your DOM that will trigger your API request when clicked.
 * Use AJAX to make the request.
-* Create objects out of the data returned. Ex: if you're working with the 
-* Use jQuery to update the DOM with new data from your API request.
+* Create objects out of the data returned. Each object should have a `render()` function that just returns a string of html that will eventually be appended to the DOM. You will also need a constructor attribute called `all` that's an array of all of your objects. Ex: if you're working with the Pokemon API each pokemon should be made into it's own object.
+* Use jQuery to update the DOM by iterating through your `all` attribute and calling the `render()` function for each object within a jQuery append.
 
 ## Instructions
 
